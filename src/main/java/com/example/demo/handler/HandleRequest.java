@@ -19,7 +19,7 @@ public class HandleRequest {
     @Autowired
     UserServicesImpl userServicesImpl;
 
-    @RequestMapping("/request")
+    @RequestMapping(value = "/getUser")
     @ResponseBody
     public User handleQuest2(int id){
         User user = userServicesImpl.queryByID(id);

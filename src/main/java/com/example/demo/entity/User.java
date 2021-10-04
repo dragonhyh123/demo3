@@ -12,4 +12,20 @@ public class User {
     private String userName;
     private String passWord;
     private String realName;
+
+    public int getId(){
+        return this.id;
+    }
+
+    public String getUserName(){
+        return this.userName;
+    }
+
+    public String getPassWord(){
+        return this.passWord;
+    }
+
+    public String getRealName(){
+        return this.realName;
+    }
 }
